@@ -1,0 +1,25 @@
+Apresentação
+
+Bem-vindo!
+
+É um prazer tê-lo como aluno do nosso curso online SQL 2016 - Criando Sistemas de Banco de Dados. Estecurso é
+ideal para você que deseja aprender a criar e manipular um sistema de banco de dados em SQL Server.
+
+Durante o curso, você aprenderá a criar um banco de dados e utilizar diversos recursos do SQL Server e sua estrutura
+de consulta e manipulação de dados. Bom aprendizado!
+
+
+Como estudar?
+
+Assista! -> Pratique! -> Material de Apoio
+
+
+Este curso conta com:
+
+Videoaulas sobre os assuntos que você precisa saber neste curso de criação de sistemas de banco de dados com SQL Server.
+
+Parte teórica, com mais exemplos e detalhes para você que quer se aprofundar no assunto da videoaula.
+
+Exercícios de testes para você pôr à prova o que aprendeu.
+
+Material de apoio para você testar os exemplos e laboratórios das videoaulas.
