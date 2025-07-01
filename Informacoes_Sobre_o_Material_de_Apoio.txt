@@ -1,0 +1,11 @@
+Caro(a) aluno(a),
+
+Para ajudá-lo(a) a reforçar os conhecimentos adquiridos neste curso, você dispõe de um material de apoio com:
+
+- Arquivos utilizados pelo instrutor durante as videoaulas
+
+- Arquivo projeto "Curso SQL Server" disponível na última aula do curso
+
+- Arquivos de exemplos das leituras (Leitura complementar) e laboratórios (Mãos à obra!)
+
+Esse material está disponível na seção Material de apoio das aulas e pode ser baixado para uso em seu computador.
