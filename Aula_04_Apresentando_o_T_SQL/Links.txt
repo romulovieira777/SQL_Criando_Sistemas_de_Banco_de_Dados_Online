@@ -1,0 +1,2 @@
+Linguagem T-SQL
+https://www.devmedia.com.br/trabalhando-com-a-linguagem-t-sql/38126
