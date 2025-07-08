@@ -9,6 +9,7 @@
 - [Aula 03 - Modelo Relacional e Normalização de Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_03_Modelo_Relacional_e_Normalizacao_de_Dados)
 - [Apresentando o T-SQL](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_04_Apresentando_o_T_SQL)
 - [Criando um Banco de Dados via T-SQL](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_05_Criando_um_Banco_de_Dados_via_T_SQL)
-- [Criando Tabelas via T-SQL]()
+- [Criando Tabelas via T-SQL](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_06_Criando_Tabelas_via_T_SQL)
+- [Constraints e Estrutura de Tabelas]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
