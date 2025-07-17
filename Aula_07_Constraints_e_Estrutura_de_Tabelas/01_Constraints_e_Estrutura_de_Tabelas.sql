@@ -1,5 +1,7 @@
 /*
-    Criando um Banco de Dados
+    Script de Criação e Modificação da Tabela de Estoque
+    - Criação da tabela tblEstoque com constraints
+    - Adição, alteração e remoção da coluna 'placa'
     Autor: Romulo Vieira
     Data: 2025-07-17
 */
