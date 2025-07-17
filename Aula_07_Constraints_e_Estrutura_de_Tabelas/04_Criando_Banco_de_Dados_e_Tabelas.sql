@@ -1,5 +1,6 @@
 /*
-    Script para criação de constraints, chaves estrangeiras, chaves únicas, check constraints e valores default no Banco de Dados PEDIDOS_VAZIO.
+    Script de criação de bancos de dados, tabelas e exemplos de uso de constraints (PRIMARY KEY, UNIQUE, CHECK, DEFAULT, FOREIGN KEY) no SQL Server.
+    Inclui exemplos de criação e teste de restrições, além de demonstrações de comandos ALTER TABLE para adicionar constraints.
     Autor: Romulo Vieira
     Data: 2025-07-17
 */
