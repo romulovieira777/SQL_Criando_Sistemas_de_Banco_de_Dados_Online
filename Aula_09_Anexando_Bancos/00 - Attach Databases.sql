@@ -1,7 +1,13 @@
 /*
+
+    Script para anexar bancos de dados no SQL Server.
+    Inclui exemplos de uso do comando SP_ATTACH_DB para diferentes bancos.
+    Autor: Romulo Vieira
+    Data: 2025-07-18
+
 |-----------------------------------------------------------------------------------------
-| Manter os arquivos no diret�rio C:\Databases
-| Dar controle total na permiss�o de pasta do windows
+| Manter os arquivos no diretorio C:\Databases
+| Dar controle total na permissao de pasta do windows
 | Executar o script inteiro							   
 |-----------------------------------------------------------------------------------------
 */
