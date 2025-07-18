@@ -14,6 +14,7 @@
 - [Criando Índices](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_08_Criando_Indices)
 - [Anexando Bancos](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_09_Anexando_Bancos)
 - [Manipulando Dados (Inserindo Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_10_Manipulando_Dados_Inserindo_Registros)
-- [Manipulando Dados (Atualizando Registros)]()
+- [Manipulando Dados (Atualizando Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_11_Manipulando_Dados_Atualizando_Registros)
+- [Manipulando Dados (Excluindo Registros)]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
