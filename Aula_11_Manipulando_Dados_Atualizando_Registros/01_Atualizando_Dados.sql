@@ -1,6 +1,6 @@
 /*
-    Script para inserir e manipular dados em tabelas no SQL Server.
-    Inclui exemplos de inserção, seleção e restrições de integridade.
+    Script para atualizar e manipular dados em tabelas no SQL Server.
+    Inclui exemplos de atualização, seleção e restrições de integridade.
     Autor: Romulo Vieira
     Data: 2025-07-18
 */
