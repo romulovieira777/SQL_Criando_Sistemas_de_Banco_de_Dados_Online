@@ -16,6 +16,7 @@
 - [Manipulando Dados (Inserindo Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_10_Manipulando_Dados_Inserindo_Registros)
 - [Manipulando Dados (Atualizando Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_11_Manipulando_Dados_Atualizando_Registros)
 - [Manipulando Dados (Excluindo Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_12_Manipulando_Dados_Excluindo_Registros)
-- [Trabalhando com Transações]()
+- [Trabalhando com Transações](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_13_Trabalhando_com_Transacoes)
+- [Consulta a Dados]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
