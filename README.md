@@ -18,6 +18,7 @@
 - [Manipulando Dados (Excluindo Registros)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_12_Manipulando_Dados_Excluindo_Registros)
 - [Trabalhando com Transações](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_13_Trabalhando_com_Transacoes)
 - [Consulta a Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_14_Consulta_a_Dados)
-- [Filtro com Operadores]()
+- [Filtro com Operadores](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_15_Filtro_com_Operadores)
+- [Filtros BETWEEN, LIKE e IN]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
