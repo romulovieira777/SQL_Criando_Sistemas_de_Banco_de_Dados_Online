@@ -22,6 +22,7 @@
 - [Filtros BETWEEN, LIKE e IN](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_16_Filtros_Between_Like_e_In)
 - [Unindo Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_17_Unindo_Dados)
 - [Comparando Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_18_Comparando_Dados)
-- [Trabalhando com Valores Nulos]()
+- [Trabalhando com Valores Nulos](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_19_Trabalhando_com_Valores_Nulos)
+- [Junções Internas]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
