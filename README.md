@@ -25,6 +25,7 @@
 - [Trabalhando com Valores Nulos](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_19_Trabalhando_com_Valores_Nulos)
 - [Junções Internas](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_20_Juncoes_Internas)
 - [Junções Externas](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_21_Juncoes_Externas)
-- [Junção Total e por Cruzamento Cartesiano]()
+- [Junção Total e por Cruzamento Cartesiano](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_22_Juncao_Total_e_por_Cruzamento_Cartesiano)
+- [Manipulando Dados com Junções]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
