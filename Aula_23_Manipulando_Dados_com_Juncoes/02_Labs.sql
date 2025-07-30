@@ -1,11 +1,10 @@
 /*
     Script para demonstrar o uso de junções (INNER, LEFT, FULL JOIN), cruzamento cartesiano (CROSS JOIN),
-    seleção de dados relacionados, atualização e remoção condicional de registros,
-    além de exemplos de tratamento de valores nulos em consultas SQL.
+    seleção, atualização e remoção condicional de registros, além de exemplos de tratamento de valores nulos,
+    criação e alteração de tabelas, e manipulação de dados relacionados entre tabelas.
     Autor: Romulo Vieira
     Data: 2025-07-29
 */
-
 -- 1. Colocar em uso o banco de dados PEDIDOS
 -- Resp.:
 USE PEDIDOS;
