@@ -28,6 +28,7 @@
 - [Junção Total e por Cruzamento Cartesiano](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_22_Juncao_Total_e_por_Cruzamento_Cartesiano)
 - [Manipulando Dados com Junções](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_23_Manipulando_Dados_com_Juncoes)
 - [Subconsultas](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_24_Subconsultas)
-- [Tabelas Temporárias]()
+- [Tabelas Temporárias](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_25_Tabelas_Temporarias)
+- [Funções de Agregação]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
