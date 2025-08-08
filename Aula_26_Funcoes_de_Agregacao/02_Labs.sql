@@ -1,80 +1,113 @@
 /*
-    Script to demonstrate the use of aggregate functions (SUM, AVG, MAX, MIN, COUNT),
-    data manipulation, conditional selection, and queries involving related tables.
-    Author: Romulo Vieira
-    Date: 2025-08-07
+    Script para demonstrar o uso de funções de agregação (SUM, AVG, MAX, MIN, COUNT),
+    manipulação de dados, seleção condicional e consultas envolvendo tabelas relacionadas.
+    Inclui exemplos de GROUP BY, HAVING, TOP N, JOINs e ordenação.
+    Autor: Romulo Vieira
+    Data: 2025-08-07
 */
-
-/* 01- Colocar em uso o banco de dados PEDIDOS.*/
+-- 01 - Colocar em uso o banco de dados PEDIDOS.
 USE PEDIDOS;
+GO
 
-/* 02- Calcular a m�dia de pre�o de venda (PRECO_VENDA)
-   do cadastro de PRODUTOS. */
-SELECT AVG(PRECO_VENDA) AS PRECO_MEDIO
-FROM TB_PRODUTO;
+-- 02 - Calcular a media de preco de venda (PRECO_VENDA) do cadastro de PRODUTOS.
+SELECT
+    AVG(PRECO_VENDA) AS PRECO_MEDIO
+FROM
+    TB_PRODUTO;
+GO
 
-/* 03- Calcular a quantidade de pedidos cadastrados em janeiro de 2014,
-   o maior e o menor valor total (VLR_TOTAL).*/
-SELECT COUNT(*) AS QTD_PEDIDOS,
-       MAX(VLR_TOTAL) AS MAIOR_PEDIDO,
-       MIN(VLR_TOTAL) AS MENOR_PEDIDO
-FROM TB_PEDIDO
-WHERE DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31';
+-- 03 - Calcular a quantidade de pedidos cadastrados em janeiro de 2014, o maior e o menor valor total (VLR_TOTAL).
+SELECT
+    COUNT(*)       AS QTD_PEDIDOS
+  , MAX(VLR_TOTAL) AS MAIOR_PEDIDO
+  , MIN(VLR_TOTAL) AS MENOR_PEDIDO
+FROM
+    TB_PEDIDO
+WHERE
+    DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31';
+GO
 
-/* 04- Calcular o valor total vendido (soma de tb_PEDIDO.VLR_TOTAL)
-   em janeiro de 2014. */
-SELECT SUM(VLR_TOTAL) AS TOT_VENDIDO
-FROM TB_PEDIDO
-WHERE DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31';
+-- 04 - Calcular o valor total vendido (soma de tb_PEDIDO.VLR_TOTAL) em janeiro de 2014.
+SELECT
+    SUM(VLR_TOTAL) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO
+WHERE
+    DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31';
+GO
 
-/* 05- Calcular o valor total vendido pelo vendedor de
-   c�digo 1 em janeiro de 2014. */
-SELECT SUM(VLR_TOTAL) AS TOT_VENDIDO
-FROM TB_PEDIDO
-WHERE DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND
-      CODVEN = 1;
+-- 05 - Calcular o valor total vendido pelo vendedor de codigo 1 em janeiro de 2014.
+SELECT
+    SUM(VLR_TOTAL) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO
+WHERE
+    DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND CODVEN = 1;
+GO
 
-/* 06- Calcular o valor total vendido pela
-   vendedora 'LEIA' em janeiro de 2014. */
-SELECT SUM(P.VLR_TOTAL) AS TOT_VENDIDO
-FROM TB_PEDIDO P
-     JOIN TB_VENDEDOR V ON P.CODVEN = V.CODVEN
-WHERE P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND
-      V.NOME = 'LEIA';
+-- 06 - Calcular o valor total vendido pela vendedora 'LEIA' em janeiro de 2014.
+SELECT
+    SUM(P.VLR_TOTAL) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO AS P
+INNER JOIN
+    TB_VENDEDOR AS V ON P.CODVEN = V.CODVEN
+WHERE
+    P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND V.NOME = 'LEIA';
+GO
 
-/* 07- Calcular o valor total vendido pelo vendedor
-   'MARCELO' em janeiro de 2014. */
-SELECT SUM(P.VLR_TOTAL) AS TOT_VENDIDO
-FROM TB_PEDIDO P
-     JOIN TB_VENDEDOR V ON P.CODVEN = V.CODVEN
-WHERE P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND
-      V.NOME = 'MARCELO';
+-- 07 - Calcular o valor total vendido pelo vendedor 'MARCELO' em janeiro de 2014.
+SELECT
+    SUM(P.VLR_TOTAL) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO AS P
+INNER JOIN
+    TB_VENDEDOR AS V ON P.CODVEN = V.CODVEN
+WHERE
+    P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND V.NOME = 'MARCELO';
+GO
 
-/* 08- Calcular o valor da comiss�o
-   (soma de TB_PEDIDO.VLR_TOTAL * TB_VENDEDOR.PORC_COMISSAO/100)
-   que a vendedora 'LEIA' recebeu em janeiro de 2014. */
-SELECT SUM(P.VLR_TOTAL * V.PORC_COMISSAO / 100 ) AS TOT_VENDIDO
-FROM TB_PEDIDO P
-     JOIN TB_VENDEDOR V ON P.CODVEN = V.CODVEN
-WHERE P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND
-      V.NOME = 'LEIA';
+/*
+    08 - Calcular o valor da comissao (soma de TB_PEDIDO.VLR_TOTAL * TB_VENDEDOR.PORC_COMISSAO/100) que a vendedora
+         'LEIA' recebeu em janeiro de 2014.
+*/
+SELECT
+    SUM(P.VLR_TOTAL * V.PORC_COMISSAO / 100 ) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO AS P
+INNER JOIN
+    TB_VENDEDOR AS V ON P.CODVEN = V.CODVEN
+WHERE
+    P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND V.NOME = 'LEIA';
+GO
 
-/* 09- Calcular o valor da comiss�o que o
-   vendedor 'MARCELO' recebeu em janeiro de 2014. */
-SELECT SUM(P.VLR_TOTAL * V.PORC_COMISSAO / 100 ) AS TOT_VENDIDO
-FROM TB_PEDIDO P
-     JOIN TB_VENDEDOR V ON P.CODVEN = V.CODVEN
-WHERE P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND
-      V.NOME = 'MARCELO';
+-- 09 - Calcular o valor da comissao que o vendedor 'MARCELO' recebeu em janeiro de 2014.
+SELECT
+    SUM(P.VLR_TOTAL * V.PORC_COMISSAO / 100 ) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO AS P
+INNER JOIN
+    TB_VENDEDOR AS V ON P.CODVEN = V.CODVEN
+WHERE
+    P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31' AND V.NOME = 'MARCELO';
 
-/* 10- Listar os totais vendidos por cada vendedor
-   (mostrar TB_VENDEDOR.NOME e a soma de TB_PEDIDO.VLR_TOTAL)
-   em janeiro de 2014. Deve exibir o nome do vendedor. */
-SELECT V.CODVEN, V.NOME, SUM(P.VLR_TOTAL) AS TOT_VENDIDO
-FROM TB_PEDIDO P
-     JOIN TB_VENDEDOR V ON P.CODVEN = V.CODVEN
-WHERE P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31'
-GROUP BY V.CODVEN, V.NOME;
+/*
+    10 - Listar os totais vendidos por cada vendedor (mostrar TB_VENDEDOR.NOME e a soma de TB_PEDIDO.VLR_TOTAL)
+         em janeiro de 2014. Deve exibir o nome do vendedor.
+*/
+SELECT
+    V.CODVEN
+  , V.NOME
+  , SUM(P.VLR_TOTAL) AS TOT_VENDIDO
+FROM
+    TB_PEDIDO AS P
+INNER JOIN
+    TB_VENDEDOR AS V ON P.CODVEN = V.CODVEN
+WHERE
+    P.DATA_EMISSAO BETWEEN '2014.1.1' AND '2014.1.31'
+GROUP BY
+    V.CODVEN
+  , V.NOME;
 GO
 
 -- 11 - Listar o total comprado por cada cliente em janeiro de 2014. Deve mostrar o nome do cliente.
