@@ -30,6 +30,7 @@
 - [Subconsultas](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_24_Subconsultas)
 - [Tabelas Temporárias](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_25_Tabelas_Temporarias)
 - [Funções de Agregação](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_26_Funcoes_de_Agregacao)
-- [Agrupando Dados]()
+- [Agrupando Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_27_Agrupando_Dados)
+- [Ordenando Dados]()
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
