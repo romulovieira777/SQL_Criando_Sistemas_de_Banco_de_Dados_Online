@@ -5,6 +5,7 @@
     Autor: Romulo Vieira
     Data: 2025-08-07
 */
+
 -- 01 - Colocar em uso o banco de dados PEDIDOS.
 USE PEDIDOS;
 GO
