@@ -33,6 +33,6 @@
 - [Agrupando Dados](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_27_Agrupando_Dados)
 - [Funções Built-In (Strings)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_28_Funcoes_Built_In_Strings)
 - [Funções Built-In (Data e Hora)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_29_Funcoes_Built_In_Data_e_Hora)
-- [Funções Built-In (Conversão e Formato)]()
+- [Funções Built-In (Conversão e Formato)](https://github.com/romulovieira777/SQL_Criando_Sistemas_de_Banco_de_Dados_Online/tree/main/Aula_30_Funcoes_Built_In_Conversao_e_Formato)
 
 Link para o curso: [Impacta](https://impacta-sc.eadbox.com/courses/sql-2016-criando-sistemas-de-banco-de-dados-online)
